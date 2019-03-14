@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE6B368FC4FC547D18E243F /* libPods-MagicDoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6F1DEE444A5BE796EC6E91 /* libPods-MagicDoll.a */; };
+		75467B2822368BA100A6AC88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75467B2722368BA100A6AC88 /* AppDelegate.m */; };
+		75467B2B22368BA100A6AC88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75467B2A22368BA100A6AC88 /* ViewController.m */; };
+		75467B2E22368BA100A6AC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75467B2C22368BA100A6AC88 /* Main.storyboard */; };
+		75467B3022368BA300A6AC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75467B2F22368BA300A6AC88 /* Assets.xcassets */; };
+		75467B3322368BA300A6AC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75467B3122368BA300A6AC88 /* LaunchScreen.storyboard */; };
+		75467B3622368BA300A6AC88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75467B3522368BA300A6AC88 /* main.m */; };
+		75467B4022368BA300A6AC88 /* MagicDollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75467B3F22368BA300A6AC88 /* MagicDollTests.m */; };
+		75467B4B22368BA300A6AC88 /* MagicDollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75467B4A22368BA300A6AC88 /* MagicDollUITests.m */; };
+		75FB0555223958D4002CD3BD /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FB0554223958D4002CD3BD /* Manager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75467B3C22368BA300A6AC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75467B1B22368BA100A6AC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75467B2222368BA100A6AC88;
+			remoteInfo = MagicDoll;
+		};
+		75467B4722368BA300A6AC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75467B1B22368BA100A6AC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75467B2222368BA100A6AC88;
+			remoteInfo = MagicDoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6F1DEE444A5BE796EC6E91 /* libPods-MagicDoll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicDoll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75467B2322368BA100A6AC88 /* MagicDoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicDoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75467B2622368BA100A6AC88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75467B2722368BA100A6AC88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75467B2922368BA100A6AC88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75467B2A22368BA100A6AC88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75467B2D22368BA100A6AC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75467B2F22368BA300A6AC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75467B3222368BA300A6AC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75467B3422368BA300A6AC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75467B3522368BA300A6AC88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75467B3B22368BA300A6AC88 /* MagicDollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicDollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75467B3F22368BA300A6AC88 /* MagicDollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicDollTests.m; sourceTree = "<group>"; };
+		75467B4122368BA300A6AC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75467B4622368BA300A6AC88 /* MagicDollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicDollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75467B4A22368BA300A6AC88 /* MagicDollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicDollUITests.m; sourceTree = "<group>"; };
+		75467B4C22368BA300A6AC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FB0552223958A9002CD3BD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		75FB0553223958D4002CD3BD /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		75FB0554223958D4002CD3BD /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		93DF266B1BC4717433D136F2 /* Pods-MagicDoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicDoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicDoll/Pods-MagicDoll.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD32EF66FCED3EB24A56328 /* Pods-MagicDoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicDoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicDoll/Pods-MagicDoll.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75467B2022368BA100A6AC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE6B368FC4FC547D18E243F /* libPods-MagicDoll.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B3822368BA300A6AC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B4322368BA300A6AC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384AF1DA02D102380F251E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F1DEE444A5BE796EC6E91 /* libPods-MagicDoll.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		565F51EB50DC3217E7462A77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DF266B1BC4717433D136F2 /* Pods-MagicDoll.debug.xcconfig */,
+				EBD32EF66FCED3EB24A56328 /* Pods-MagicDoll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75467B1A22368BA100A6AC88 = {
+			isa = PBXGroup;
+			children = (
+				75467B2522368BA100A6AC88 /* MagicDoll */,
+				75467B3E22368BA300A6AC88 /* MagicDollTests */,
+				75467B4922368BA300A6AC88 /* MagicDollUITests */,
+				75467B2422368BA100A6AC88 /* Products */,
+				565F51EB50DC3217E7462A77 /* Pods */,
+				384AF1DA02D102380F251E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75467B2422368BA100A6AC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75467B2322368BA100A6AC88 /* MagicDoll.app */,
+				75467B3B22368BA300A6AC88 /* MagicDollTests.xctest */,
+				75467B4622368BA300A6AC88 /* MagicDollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75467B2522368BA100A6AC88 /* MagicDoll */ = {
+			isa = PBXGroup;
+			children = (
+				75467B2622368BA100A6AC88 /* AppDelegate.h */,
+				75467B2722368BA100A6AC88 /* AppDelegate.m */,
+				75467B2922368BA100A6AC88 /* ViewController.h */,
+				75467B2A22368BA100A6AC88 /* ViewController.m */,
+				75FB0552223958A9002CD3BD /* PrefixHeader.pch */,
+				75FB0553223958D4002CD3BD /* Manager.h */,
+				75FB0554223958D4002CD3BD /* Manager.m */,
+				75467B2C22368BA100A6AC88 /* Main.storyboard */,
+				75467B2F22368BA300A6AC88 /* Assets.xcassets */,
+				75467B3122368BA300A6AC88 /* LaunchScreen.storyboard */,
+				75467B3422368BA300A6AC88 /* Info.plist */,
+				75467B3522368BA300A6AC88 /* main.m */,
+			);
+			path = MagicDoll;
+			sourceTree = "<group>";
+		};
+		75467B3E22368BA300A6AC88 /* MagicDollTests */ = {
+			isa = PBXGroup;
+			children = (
+				75467B3F22368BA300A6AC88 /* MagicDollTests.m */,
+				75467B4122368BA300A6AC88 /* Info.plist */,
+			);
+			path = MagicDollTests;
+			sourceTree = "<group>";
+		};
+		75467B4922368BA300A6AC88 /* MagicDollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75467B4A22368BA300A6AC88 /* MagicDollUITests.m */,
+				75467B4C22368BA300A6AC88 /* Info.plist */,
+			);
+			path = MagicDollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75467B2222368BA100A6AC88 /* MagicDoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75467B4F22368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDoll" */;
+			buildPhases = (
+				2104A050C1FE43327B476A5D /* [CP] Check Pods Manifest.lock */,
+				75467B1F22368BA100A6AC88 /* Sources */,
+				75467B2022368BA100A6AC88 /* Frameworks */,
+				75467B2122368BA100A6AC88 /* Resources */,
+				A84CA171F900426F0DC7FF9C /* [CP] Embed Pods Frameworks */,
+				C989C09E0B9A193E36CAC8EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicDoll;
+			productName = MagicDoll;
+			productReference = 75467B2322368BA100A6AC88 /* MagicDoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75467B3A22368BA300A6AC88 /* MagicDollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75467B5222368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDollTests" */;
+			buildPhases = (
+				75467B3722368BA300A6AC88 /* Sources */,
+				75467B3822368BA300A6AC88 /* Frameworks */,
+				75467B3922368BA300A6AC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75467B3D22368BA300A6AC88 /* PBXTargetDependency */,
+			);
+			name = MagicDollTests;
+			productName = MagicDollTests;
+			productReference = 75467B3B22368BA300A6AC88 /* MagicDollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75467B4522368BA300A6AC88 /* MagicDollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75467B5522368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDollUITests" */;
+			buildPhases = (
+				75467B4222368BA300A6AC88 /* Sources */,
+				75467B4322368BA300A6AC88 /* Frameworks */,
+				75467B4422368BA300A6AC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75467B4822368BA300A6AC88 /* PBXTargetDependency */,
+			);
+			name = MagicDollUITests;
+			productName = MagicDollUITests;
+			productReference = 75467B4622368BA300A6AC88 /* MagicDollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75467B1B22368BA100A6AC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = macbookpro;
+				TargetAttributes = {
+					75467B2222368BA100A6AC88 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75467B3A22368BA300A6AC88 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75467B2222368BA100A6AC88;
+					};
+					75467B4522368BA300A6AC88 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75467B2222368BA100A6AC88;
+					};
+				};
+			};
+			buildConfigurationList = 75467B1E22368BA100A6AC88 /* Build configuration list for PBXProject "MagicDoll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75467B1A22368BA100A6AC88;
+			productRefGroup = 75467B2422368BA100A6AC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75467B2222368BA100A6AC88 /* MagicDoll */,
+				75467B3A22368BA300A6AC88 /* MagicDollTests */,
+				75467B4522368BA300A6AC88 /* MagicDollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75467B2122368BA100A6AC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75467B3322368BA300A6AC88 /* LaunchScreen.storyboard in Resources */,
+				75467B3022368BA300A6AC88 /* Assets.xcassets in Resources */,
+				75467B2E22368BA100A6AC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B3922368BA300A6AC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B4422368BA300A6AC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2104A050C1FE43327B476A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicDoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84CA171F900426F0DC7FF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicDoll/Pods-MagicDoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C989C09E0B9A193E36CAC8EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicDoll/Pods-MagicDoll-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicDoll/Pods-MagicDoll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75467B1F22368BA100A6AC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75467B2B22368BA100A6AC88 /* ViewController.m in Sources */,
+				75467B3622368BA300A6AC88 /* main.m in Sources */,
+				75467B2822368BA100A6AC88 /* AppDelegate.m in Sources */,
+				75FB0555223958D4002CD3BD /* Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B3722368BA300A6AC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75467B4022368BA300A6AC88 /* MagicDollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75467B4222368BA300A6AC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75467B4B22368BA300A6AC88 /* MagicDollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75467B3D22368BA300A6AC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75467B2222368BA100A6AC88 /* MagicDoll */;
+			targetProxy = 75467B3C22368BA300A6AC88 /* PBXContainerItemProxy */;
+		};
+		75467B4822368BA300A6AC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75467B2222368BA100A6AC88 /* MagicDoll */;
+			targetProxy = 75467B4722368BA300A6AC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75467B2C22368BA100A6AC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75467B2D22368BA100A6AC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75467B3122368BA300A6AC88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75467B3222368BA300A6AC88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75467B4D22368BA300A6AC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75467B4E22368BA300A6AC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75467B5022368BA300A6AC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DF266B1BC4717433D136F2 /* Pods-MagicDoll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2LKH292H6;
+				INFOPLIST_FILE = MagicDoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75467B5122368BA300A6AC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD32EF66FCED3EB24A56328 /* Pods-MagicDoll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2LKH292H6;
+				INFOPLIST_FILE = MagicDoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75467B5322368BA300A6AC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicDollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicDoll.app/MagicDoll";
+			};
+			name = Debug;
+		};
+		75467B5422368BA300A6AC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicDollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicDoll.app/MagicDoll";
+			};
+			name = Release;
+		};
+		75467B5622368BA300A6AC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicDollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicDoll;
+			};
+			name = Debug;
+		};
+		75467B5722368BA300A6AC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicDollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macbookpro.MagicDollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicDoll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75467B1E22368BA100A6AC88 /* Build configuration list for PBXProject "MagicDoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75467B4D22368BA300A6AC88 /* Debug */,
+				75467B4E22368BA300A6AC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75467B4F22368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75467B5022368BA300A6AC88 /* Debug */,
+				75467B5122368BA300A6AC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75467B5222368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75467B5322368BA300A6AC88 /* Debug */,
+				75467B5422368BA300A6AC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75467B5522368BA300A6AC88 /* Build configuration list for PBXNativeTarget "MagicDollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75467B5622368BA300A6AC88 /* Debug */,
+				75467B5722368BA300A6AC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75467B1B22368BA100A6AC88 /* Project object */;
+}
