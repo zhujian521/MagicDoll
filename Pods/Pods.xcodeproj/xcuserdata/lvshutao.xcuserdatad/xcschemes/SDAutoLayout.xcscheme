@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1858A10FFD1E346DEF0D3EB76689EC64"
-               BlueprintName = "XYQRegexPattern"
+               BlueprintIdentifier = "358BD2889F97926D7361281153875F33"
+               BlueprintName = "SDAutoLayout"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libXYQRegexPattern.a">
+               BuildableName = "libSDAutoLayout.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

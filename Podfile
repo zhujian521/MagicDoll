@@ -8,6 +8,6 @@ pod 'IQKeyboardManager'
 pod 'XYQRegexPattern'
 pod 'Masonry'
 pod 'AVOSCloud'
-
+pod 'SDAutoLayout'
 
 end
